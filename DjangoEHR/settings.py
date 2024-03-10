@@ -92,7 +92,7 @@ DATABASES = {
         'NAME': 'maram123',
         'USER': 'lab3database',
         'PASSWORD': 'M/12/33M',
-        'HOST': 'Burstable, B1ms, 1 vCores, 2 GiB RAM, 32 GiB storage',
+        'HOST': 'maram123.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS':{'sslmode':'require'},
     }
