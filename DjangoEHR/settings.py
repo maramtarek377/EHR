@@ -84,14 +84,14 @@ WSGI_APPLICATION = 'DjangoEHR.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 #    }
-
+# postgres://maram123:'M%2F12%2F33m'@maram123.postgres.database.azure.com:5432/postgres
 # # version2
 DATABASES = {
   'default': {
    'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'maram123',
-        'PASSWORD': 'M/12/33M',
+        'PASSWORD': 'M%2F12%2F33m',
         'HOST': 'maram123.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS':{'sslmode':'require'},
